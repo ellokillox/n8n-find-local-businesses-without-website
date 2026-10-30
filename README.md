@@ -55,6 +55,12 @@ Download [`workflows/find-local-businesses-without-website.json`](workflows/find
 and import it in n8n (*Workflows → Import from File*). Test it with the **manual** trigger before
 turning the 08:00 schedule on.
 
+## Related
+
+- **MCP server (free, MIT):** [mcp-local-leads](https://github.com/ellokillox/mcp-local-leads) — the
+  same first step from inside your AI client (Claude Desktop, Claude Code, Cursor): ask for local
+  businesses without a website in any city and get them back as a list or a CSV.
+
 ## What this is not
 
 This is **step 1** of a larger pipeline (find + filter). It does not include a lead scoring rubric,
